@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eeeeee"
     tools:context="com.example.hashhacks.MainActivity2">m
 
     <android.support.v7.widget.RecyclerView
