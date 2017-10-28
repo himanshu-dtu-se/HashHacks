@@ -7,6 +7,7 @@
     android:gravity="center"
     android:padding="10dp"
     android:orientation="vertical"
+    android:background="#fff"
     android:layout_height="match_parent"
     tools:context="com.example.hashhacks.LoginActivity">
 
@@ -14,6 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"/>
 
         <EditText
             android:id="@+id/login_user"
@@ -21,6 +26,7 @@
             android:hint="Username"
             android:textSize="22sp"
             android:textStyle="bold"
+            android:textColor="#000"
             android:textAlignment="center"
             android:drawableLeft="@drawable/ic_person"
             android:fontFamily="serif-monospace"
@@ -30,6 +36,7 @@
         <EditText
             android:id="@+id/login_pass"
             android:hint="Password"
+            android:textColor="#000"
             android:textSize="22sp"
             android:textStyle="bold"
             android:inputType="textPassword"
