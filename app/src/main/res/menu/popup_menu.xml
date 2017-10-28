@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pop_identity"
+        android:title="Identity proof"/>
+
+    <item
+        android:id="@+id/pop_property"
+        android:title="Property proof"/>
+    <item
+        android:id="@+id/pop_bank"
+        android:title="Bank statement"/>
+
+</menu>
